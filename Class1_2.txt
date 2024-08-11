@@ -1,0 +1,200 @@
+What is Java
+Popular programming Language
+
+Where Java is used
+> Mobile application
+> Deskptop based application
+> games
+> Database connection
+
+
+Why Java?
+Java works with all the platforms (Window , Mac , Linux)
+Huge demand in job market
+Easy to learn and open source
+Secure and fast and powerful
+Programming language should have huge community support
+
+
+
+
+Pre Requisite
+- Installation of java before starting with programming
+
+
+Eclipse
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2024-06/R/eclipse-inst-jre-win64.exe
+
+
+Setting path in environment variable
+
+
+Class name : HelloWorld
+
+main()----> Any code inside main() method will be executed
+
+
+Public: Access Specifier , can be accessed publically . It means everyone can access this method
+
+static: It is an access modifier ,whenever we have this java program loaded so memory is created automatically
+
+Void: It does not return any value
+
+
+
+variable: 
+
+
+Different types of variable
+String: stores text , "Hello World"
+int: stores integer  (123 or -123)
+float: stores floating point number (19.999)
+char: single character ,such as 'a' and 'B'
+boolean: store true or false
+
+
+Final ---> if we don't want to overwrite existing values
+
+use the final keyword
+
+
+String Immutability
+
+Immutable objects-->objects whose elements cannot be modified once declared
+
+How String are immutable ?
+
+Java Method
+
+> Method is block of code which runs when it is called
+
+> We can pass data in method which is called s parameter
+
+Methods are used to perform certain actions that's why known as functions aswell
+
+
+static void myMethod(String fname) {
+		//code
+	}
+
+
+
+OOPS Concepts:
+
+OOP stands for Object Oriented Programming
+
+> faster and easier to executed
+> clear structure for program
+
+
+Java - What are Classes and Objects
+
+class -----> fruit
+Objects ---> banana , apple , mango
+
+Four Main Object Oriented Programming concepts
+
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism
+
+Abstraction : It is a process of hiding implementation details and exposing functionality to user.
+
+User only knows "what it does" rather than "how it i being done"
+
+There are two ways to achieve the abatraction
+> Abstract class (0 to 100%)
+> Interface (100%)
+
+
+Certain key points should be remebered regarding pillars OOPS
+
+> The class needs to be abstract if a class has one or more abstract methods
+> Abstract class can have constructor , finl methods ,static methods aswell
+> Abstract class can't be directly instantiated with the new operator
+
+A b = new B(); ----> interface
+
+
+A b = new A();
+
+> The child class should override all the above mentods of the parents -- it should be declared with abstract keyword.
+
+
+Encapsulation: It is the process of wrapping code and data together into a single unit
+
+
+In order to achieve encapsulation in java we need to follow certain steps
+
+> Declare the variable as private
+
+
+
+Classname obj = new Classname;
+Obj.
+
+
+-------------------------------------------
+
+Inheritance
+
+class Subclass-name extends Superclass-name
+{
+// methods
+}
+
+
+-------------------------
+ Polymorphism
+ 
+ 1) Static Polymorphism----> complile time , method overloading
+ 2) Dynamic Polymorphism ----> method overriding
+ 
+ 
+ public class Car {
+ public void speed() {
+ }
+ public void speed(String accelerator) {
+ 
+ }
+ 
+ public void speed(String accelerator, String speedup
+ 
+ ) {
+ 
+ }
+ 
+ 
+ 
+ }
+ 
+ -------------------------------------------------
+ 
+ Java Array: 
+ 
+ 
+ Array is a collection of similar type of element
+ 
+ dataType[] arr;
+ dataType []arr;
+ 
+ Instantiation of an Aray
+ 
+ arrayRefernce =new datatype[size];
+ 
+ 
+ For each:
+ 
+ for (type var : array)
+ 
+ {
+ statements
+ }
+ 
+ if (condition) {
+ // blaock of code
+ }
+ 
+ 
+
