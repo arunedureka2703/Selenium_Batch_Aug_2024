@@ -1,0 +1,83 @@
+Selenium
+
+> Web based application
+> Platfor independent ---> we ca perform distributed testing using our network
+> Multiple OS
+> Multiple browsers
+> Supplort Multiple programming languages
+
+
+What is Selenium with Java: Done
+How does selenium work ?
+Whay selenium with java?
+Steps to configure Java env.
+Creation of selenium with Java project in Eclipse
+
+
+How does selenium works:
+
+1) User Code: The user creates automation script. It can contain instructions and commands for interacting with web elements/pages
+2) Selenium Client Library: It acts as a bridge between user code and webdriver. It provides APIs that allows user code to control web browser.
+3) Webdriver API: It establishes a common language for browser automation
+4) Browser driving force: 
+
+chrome ------------>ChromeDriver
+Internet explorer----> InternetExplorer driver
+Firefox -------> GeckoDriver
+
+5) Browser
+
+Selenium Integration
+
+> TestNG
+> Maven 
+> Docker
+> Jenkins
+> Jmeter
+
+
+
+Selenium components
+> Webdriver: 
+> IDE
+> RC
+> Grid
+
+
+Webdriver
+> 
+
+
+Not at all stand alone testing tool
+
+
+> Selenium Webdriver client Libraries: 
+> 
+
+
+How Selenium Webdriver works?
+
+My first test case
+
+> Browser
+> Eclipse
+> Selenium Jars
+
+
+> Application launch
+> Title validation
+
+
+Step 1: Launch Eclipse
+https://www.eclipse.org/downloads/
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2024-06/R/eclipse-inst-jre-win64.exe
+
+
+Step 2: Create a Project ( relevant name)
+File-->New---->Java Project
+
+Step 3: Download selenium jar files
+https://www.selenium.dev/downloads/
+
+Step 4: Add jar file in project
+
