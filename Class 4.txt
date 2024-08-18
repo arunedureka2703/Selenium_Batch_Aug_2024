@@ -1,0 +1,37 @@
+Locators:
+
+Locators are commands that tells selenium IDE which UI(web) element (textbox , buttons ,radio buttons etc.) need to operate on it
+
+//*[@id="APjFqb"]
+
+/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]
+
+As a best practice we plan to use relative path
+
+
+Different Locators type
+
+> id
+> name ----> identifies object using name values
+> Xpath
+> linktext
+> tag name
+> CSS Selector
+
+Relative xpath
+
+
+
+/html/body/div[2]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td[3]/form/table/tbody/tr[4]/td/table/tbody/tr[2]/td[2]/input
+
+name =userName "admin"
+
+
+//*[@id="tads"]/div[3]/div/div/div/div[1]/a/div[1]/span
+//span[contains(text(),'Edureka Online | Edureka Trending Courses')]
+
+
+//textarea[@id='APjFqb'] ----> releative xpath generated from the chropath
+
+
+FindElement: Selenium FindElement command takes in the By objct and return an object of type list WebEelement in selenium.
